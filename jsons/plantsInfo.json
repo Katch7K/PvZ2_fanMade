@@ -1,0 +1,1402 @@
+{
+    "a.k.e.e.": {
+        "name": "A.K.E.E.",
+        "Sun cost": 175,
+        "Recharge": 5,
+        "damage": "0/50/40/30 danni per colpo (il primo, secondo e terzo zombi)",
+        "Range": "rimbalzo / multi - hit",
+        "Family": "Arma-mint",
+        "description": "A.K.E.E.s lancia proiettili che rimbalzano da zombi a zombi",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/A.K.E.E..png"
+    },
+    "ail-mint": {
+        "name": "Ail-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "11 secondi",
+        "Weakness": "E' immune agli effetti del veleno",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Ail-mint.png"
+    },
+    "aloe": {
+        "name": "Aloe",
+        "Sun cost": "75",
+        "Recharge": "20 secondi",
+        "Toughness": "Normale",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Aloe.png"
+    },
+    "apple_mortar": {
+        "name": "Apple Mortar",
+        "Sun cost": "250",
+        "Recharge": "8 secondi",
+        "damage": "30 danni per colpo",
+        "Area": "3x3",
+        "Range": "Lobbed",
+        "Family": "Arma-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Apple Mortar.png"
+    },
+    "arma-mint": {
+        "name": "Arma-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "damage": "1200 dps",
+        "Duration": "6 secondi",
+        "Family": "Arma-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Arma-mint.png"
+    },
+    "banana_launcher": {
+        "name": "Banana Launcher",
+        "Sun cost": "500",
+        "Recharge": "5 secondi",
+        "damage": "1200 danni per colpo in a 1x3 area",
+        "Area": "Tile",
+        "Range": "Anywhere on lawn",
+        "Usage": "Tap to arm, tap on target tile to fire",
+        "Special": "On impact, explodes in small area",
+        "Family": "Arma-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Banana Launcher.png"
+    },
+    "blastberry_vine": {
+        "name": "Blastberry Vine",
+        "Sun cost": "175",
+        "Recharge": "10 secondi",
+        "damage": "15 DPS per bomblet",
+        "Family": "Arma-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Blastberry Vine.png"
+    },
+    "bloomerang": {
+        "name": "Bloomerang",
+        "Sun cost": 175,
+        "Recharge": 5,
+        "damage": 20,
+        "toughness": 300,
+        "Range": "Multi-Hit",
+        "powerup": "Duration",
+        "Family": "Spear-mint",
+        "description": "Bloomerang è la prima pianta che i nuovi player ricevono all'inizio del gioco. Lancia petali di boomerang i quali colpiscono 3 zombi su una linea due volte(Una volta quando si muove avanti e una volta quando ritorna.) Lancia il boomerang ogni 3 secondi.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Bloomerang.png"
+    },
+    "blooming_heart": {
+        "name": "Blooming Heart",
+        "Sun cost": "150",
+        "Recharge": "5 secondi",
+        "damage": "40 danni per colpo, increases by 10 with each attack hitting a single zombie, up to 5 times",
+        "Range": "Lobbed",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Blooming Heart.png"
+    },
+    "blover": {
+        "name": "Blover",
+        "Sun cost": 50,
+        "Recharge": 5,
+        "usage": "Uso singolo, instant",
+        "special": "Blows away all flying zombies",
+        "Range": "Full Board",
+        "Family": "Contain-mint",
+        "description": "Blovers blow away all zombies in air",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Blover.png"
+    },
+    "bombard-mint": {
+        "name": "Bombard-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "damage": "1800 danni per colpo",
+        "Duration": "6 secondi",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Bombard-mint.png"
+    },
+    "bonk_choy": {
+        "name": "Bonk Choy",
+        "Sun cost": 150,
+        "Recharge": 5,
+        "damage": 15,
+        "toughness": 300,
+        "Range": "vicino",
+        "powerup": "Duration",
+        "description": "Bonk Choys rapidly punch nearby enemies that are ahead or behind them.\nSpecial: can attack ahead or behind",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Bonk Choy.png"
+    },
+    "boom_balloon_flower": {
+        "name": "Boom Balloon Flower",
+        "Sun cost": "350",
+        "Recharge": "5",
+        "damage": "575 (per balloon)",
+        "Toughness": "300",
+        "Usage": "Tap or drag from Boom Balloon Flower to move a balloon to a tile",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Boom Balloon Flower.png"
+    },
+    "bowling_bulb": {
+        "name": "Bowling Bulb",
+        "Sun cost": "200",
+        "Recharge": "5 secondi",
+        "damage": "<span>40 danni per colpo</span> (bulbo blu)<br><span>180 danni per colpo </span>(orange bulb)",
+        "Range": "Multi-Hit",
+        "Damage details": "Le bocce più grosse fanno molto più male",
+        "Family": "Appease-mint",
+        "description":"Bowling bulb è una pianta che lancia 3 bocce di diversi colori. Ogni boccia causa un danno diverso dall'altra agli zombi.Ogni boccia quando colpisce uno zombi rimbalza andando in diagonale, come a bowling. Usato il ricostituente su essa, Bowling bulb lancia 3 bocce fulminate che infliggono danni ingenti agli zombi",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Bowling Bulb.png"
+    },
+    "cabbage-pult": {
+        "name": "Cabbage-pult",
+        "Sun cost": 100,
+        "Recharge": 5,
+        "damage": 40,
+        "Range": "Lobbed",
+        "Family": "Arma-mint",
+        "description": "Cabbage-pults hurl cabbages at the enemy.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Cabbage-pult.png"
+    },
+    "caulipower": {
+        "name": "Caulipower",
+        "Sun cost": "250 (300 in Chinese version)",
+        "Recharge": "45 secondi",
+        "Toughness": "300 danni per colpo",
+        "Range": "Full Board",
+        "Special": "Hovers above ground or water",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Caulipower.png"
+    },
+    "celery_stalker": {
+        "name": "Celery Stalker",
+        "Sun cost": "50",
+        "Recharge": "15 secondi",
+        "damage": "100 danni per colpo every 0.5 secondi",
+        "Toughness": "1200 danni per colpo",
+        "Special": "Waits until zombies pass over it, then pops up and attacks",
+        "Weakness": "(instantly kills it)",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Celery Stalker.png"
+    },
+    "chard_guard": {
+        "name": "Chard Guard",
+        "Sun cost": 75,
+        "Recharge": 15,
+        "toughness": 1500,
+        "special": "Hurls zombies back (*3)",
+        "Family": "Reinforce-mint",
+        "description": "Chard Guards are defensive blockers that can hurl zombies backwards.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Chard Guard.png"
+    },
+    "cherry_bomb": {
+        "name": "Cherry Bomb",
+        "Sun cost": 150,
+        "Recharge": 35,
+        "damage": "Massive",
+        "area": "3*3",
+        "usage": "Uso singolo, instant",
+        "Family": "Bombard-mint",
+        "description": "Cherry Bombs can blow up all zombies in an area. They have a short fuse so plant them near zombies.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Cherry Bomb.png"
+    },
+    "chili_bean": {
+        "name": "Chili Bean",
+        "Sun cost": 50,
+        "Recharge": 20,
+        "Usage": "When eaten",
+        "special": "Eating zombie is destroyed and releases stunning gas",
+        "Family": "Ail-mint",
+        "description": "Chili Beans deliver a crippling bout of gastrointestinal distress.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Chili Bean.png"
+    },
+    "citron": {
+        "name": "Citron",
+        "Sun cost": 350,
+        "Recharge": 5,
+        "damage": 800,
+        "area": "single",
+        "Family": "Fila-mint",
+        "description": "Citrons shoot powerful balls of plasma",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Citron.png"
+    },
+    "coconut_cannon": {
+        "name": "Coconut Cannon",
+        "Sun cost": 400,
+        "Recharge": 5,
+        "damage": 900,
+        "toughness": 300,
+        "area": "3*3",
+        "usage": "Tap to fire",
+        "special": "On impact, explodes in medium area",
+        "Family": "Arma-mint",
+        "description": "Coconut Cannons fire down a single lane, causing a medium explosion upon impact.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Coconut Cannon.png"
+    },
+    "cold_snapdragon": {
+        "name": "Cold Snapdragon",
+        "Sun cost": "150, 250 (Cina)",
+        "Recharge": "5 secondi",
+        "damage": "30 danni per colpo (60 in the Chinese version)",
+        "Range": "vicino",
+        "Special": "Slows and damages zombies in the 6 tiles in front of it",
+        "Family": "Winter-mint",
+        "description" : " questa pianta lancia getti di ghiaccio contro i nemici, causando danni e rallentandoli. Inoltre, quando usata in combinazione con Winter-mint, i suoi attacchi diventano ancora più potenti.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Cold Snapdragon.png"
+    },
+    "conceal-mint": {
+        "name": "Conceal-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "6 secondi",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Conceal-mint.png"
+    },
+    "contain-mint": {
+        "name": "Contain-mint",
+        "Sun cost": "0",
+        "Recharge": "85",
+        "Duration": "10 secondi",
+        "Special": "Stun",
+        "Family": "Contain-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Contain-mint.png"
+    },
+    "dartichoke": {
+        "name": "Dartichoke",
+        "Sun cost": "225",
+        "Recharge": "8.5 secondi",
+        "damage": "75 danni per colpo",
+        "Range": "dritto",
+        "Usage": "Has a limited supply of darts, then must recharge",
+        "Special": "Ogni colpo ha la probabilità di crittare",
+        "Family": "Spear-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Dartichoke.png"
+    },
+    "dazey_chain": {
+        "name": "Dazey Chain",
+        "Sun cost": "150",
+        "Recharge": "5 secondi",
+        "damage": "20 danni per colpo per open flower",
+        "Family": "Contain-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Dazey Chain.png"
+    },
+    "draftodil": {
+        "name": "Draftodil",
+        "Sun cost": "100",
+        "Recharge": "5 secondi",
+        "damage": "15 danni per colpo",
+        "Toughness": "300 danni per colpo",
+        "Usage": "Briefly stuns non-flying zombies",
+        "Special": "Air cannon knocks critters, imps and shrunken zombies off the lawn",
+        "Family": "Contain-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Draftodil.png"
+    },
+    "dusk_lobber": {
+        "name": "Dusk Lobber",
+        "Sun cost": "150 (200 in Cina)",
+        "Recharge": "10 secondi",
+        "damage": "30 danni per colpo, with 25 danni per colpo splash damage in a 3x3 area",
+        "Area": "3x3",
+        "Range": "Lobbed",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Dusk Lobber.png"
+    },
+    "e.m.peach": {
+        "name": "E.M.Peach",
+        "Sun cost": "25",
+        "Recharge": "25",
+        "usage": "Uso singolo, instantaneo",
+        "special": "Disattiva le macchine",
+        "Range": "Griglia 5x5",
+        "Family": "Fila-mint",
+        "description": "E.M.Peaches explode and disable all machines in an area.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/E.M.Peach.png"
+    },
+    "electrici-tea": {
+        "name": "Electrici-tea",
+        "Sun cost": "125",
+        "Recharge": "15 secondi",
+        "damage": "950 danni per colpo (explosion)",
+        "Range": "3 danni per colpo (passive electric zaps)",
+        "Special": "Multi-Hit",
+        "Weakness": "Zombies Zapped",
+        "description": "(Can crush, burn, pushback, scoop up, transform into Sheep/Octopus instead of eating. Will pushback or destroy when their Jam is activated)",
+        "Family": "Fila-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Electrici-tea.png"
+    },
+    "enchant-mint": {
+        "name": "Enchant-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "11 secondi",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Enchant-mint.png"
+    },
+    "endurian": {
+        "name": "Endurian",
+        "Sun cost": 100,
+        "Recharge": 15,
+        "damage": "20",
+        "toughness": "3000",
+        "Family": "Reinforce-mint",
+        "description": "Endurian è una pianta che difende la fila e al tempo stesso attacca gli zombi quando provano a mangiarla",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Endurian.png"
+    },
+    "enforce-mint": {
+        "name": "Enforce-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "8 secondi",
+        "Family": "Enforce-mint",
+        "description" : "Enforce-mint fa rimpicciolire gli zombi e potezia le piante della sua famiglia",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Enforce-mint.png"
+    },
+    "enlighten-mint": {
+        "name": "Enlighten-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Duration": "5 secondi",
+        "Family": "Enlighten-mint",
+        "description" : " Quando viene utilizzata come potenziamento, aumenta la potenza e la durata degli attacchi delle piante attorno ad essa per un breve periodo di tempo. Inoltre, ha un effetto aggiuntivo sulla produzione di sole delle piante del giardino, aumentandola temporaneamente.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Enlighten-mint.png"
+    },
+    "escape_root": {
+        "name": "Escape Root",
+        "Sun cost": "50",
+        "Recharge": "20 secondi",
+        "Usage": "Instant",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Escape Root.png"
+    },
+    "explode-o-nut": {
+        "name": "Explode-O-Nut",
+        "Sun cost": "50",
+        "Recharge": "10 secondi",
+        "Toughness": "3000 danni per colpo",
+        "Weakness": "(Immune to explosion)",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Explode-O-Nut.png"
+    },
+    "explode-o-vine": {
+        "name": "Explode-o-Vine",
+        "Sun cost": "150",
+        "Recharge": "10 secondi",
+        "Toughness": "1500 danni per colpo",
+        "Usage": "can be planted on top of non-vine plants",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Explode-o-Vine.png"
+    },
+    "fila-mint": {
+        "name": "Fila-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "damage": "150 danni per colpo",
+        "Duration": "6 secondi",
+        "Family": "Fila-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Fila-mint.png"
+    },
+    "fume-shroom": {
+        "name": "Fume-shroom",
+        "Sun cost": "125",
+        "Recharge": "5 secondi",
+        "damage": "40 danni per colpo",
+        "Area": "1x4",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Fume-shroom.png"
+    },
+    "garlic": {
+        "name": "Garlic",
+        "Sun cost": "50",
+        "Recharge": "20 secondi",
+        "Toughness": "600 danni per colpo",
+        "Area": "Single",
+        "Range": "Touch",
+        "Special": "Diverts zombies into other lanes",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Garlic.png"
+    },
+    "ghost_pepper": {
+        "name": "Ghost Pepper",
+        "Sun cost": "75, 100 (Cina)",
+        "Recharge": "15 secondi",
+        "damage": "30 danni per colpo every 0.5 secondi",
+        "Range": "Front & Back",
+        "Family": "Pepper-mint",
+        "description":" La Ghost Pepper è una pianta molto piccante, quando viene attivata infiamma gli zombi circostanti e li fa saltare in aria. Dandole il ricostituente danneggia gli zombi in un area 3x3",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Ghost Pepper.png"
+    },
+    "gloom_vine": {
+        "name": "Gloom Vine",
+        "Sun cost": "125",
+        "Recharge": "5 secondi",
+        "damage": "45 danni per colpo",
+        "Toughness": "250 danni per colpo",
+        "Range": "3x3",
+        "Special": "Powers shadow plants within",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Gloom Vine.png"
+    },
+    "gold_bloom": {
+        "name": "Gold Bloom",
+        "Sun cost": "0",
+        "Recharge": "75 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Usage": "Instant",
+        "Family": "Enlighten-mint",
+        "description" : "Gold Bloom è una pianta di supporto. Non ha alcuna capacità di attacco, ma produce 375 di sole all'istante quando piantata, il che la rende una scelta utile per accumulare un po' di sole extra all'inizio di una partita. Inoltre, dopo un breve periodo di ricarica, può produrre ulteriori 75 sole, rendendola una pianta versatile per generare sole aggiuntivo durante il gioco.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Gold Bloom.png"
+    },
+    "gold_leaf": {
+        "name": "Gold Leaf",
+        "Sun cost": 50,
+        "Recharge": 30,
+        "special": "creates sun every 20 secondi",
+        "usage": "Uso singolo,instant",
+        "description": "Gold Leaves create a Gold Tile on planting.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Gold Leaf.png"
+    },
+    "grapeshot": {
+        "name": "Grapeshot",
+        "Sun cost": "150",
+        "Recharge": "35 secondi",
+        "damage": "1800 danni per colpo (explosion)",
+        "Area": "3x3",
+        "special": "200 danni per colpo (grapes).(Immune to explosion)",
+        "Usage": "Instant",
+        "Weakness": "(deflects grapes)",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Grapeshot.png"
+    },
+    "grave_buster": {
+        "name": "Grave Buster",
+        "Sun cost": 0,
+        "Recharge": 10,
+        "toughness": "Normale",
+        "usage": "Uso singolo, Può essere piantato solo sulle lapidi",
+        "special": "Rimuove le lapidi",
+        "Family": "Contain-mint",
+        "description": "I Grave Buster rimuovono le lapidi sul loro cammino",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Grave Buster.png"
+    },
+    "grimrose": {
+        "name": "Grimrose",
+        "Sun cost": "75",
+        "Recharge": "20 secondi",
+        "Range": "Lane",
+        "Usage": "Single",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Grimrose.png"
+    },
+    "gumnut": {
+        "name": "Gumnut",
+        "Sun cost": "125",
+        "Recharge": "12",
+        "Usage": "Best used against Gargantuars & Football Mechs",
+        "Special": "Stronger zombies form stronger barriers",
+        "Weakness": "(can easily remove gum from gummed zombies when teleporting them)",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Gumnut.png"
+    },
+    "headbutter_lettuce": {
+        "name": "Headbutter Lettuce",
+        "Sun cost": "175",
+        "Recharge": "7 secondi",
+        "damage": "100 danni per colpo",
+        "Toughness": "900 danni per colpo",
+        "Usage": "Resists damage with high health",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Headbutter Lettuce.png"
+    },
+    "heath_seeker": {
+        "name": "Heath Seeker",
+        "Sun cost": "125",
+        "Recharge": "20",
+        "damage": "560 dps",
+        "Range": "Full Board",
+        "Special": "can target from anywhere on the lawn",
+        "Family": "Spear-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Heath Seeker.png"
+    },
+    "hocus_crocus": {
+        "name": "Hocus Crocus",
+        "Sun cost": "200",
+        "Recharge": "20 secondi",
+        "damage": "100 danni per colpo",
+        "Special": "Each teleportation also does damage",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Hocus Crocus.png"
+    },
+    "holly_barrier": {
+        "name": "Holly Barrier",
+        "Sun cost": "150",
+        "Recharge": "15 secondi",
+        "damage": "20 danni per colpo (plant and barriers)",
+        "Toughness": "3000 dps",
+        "Area": "Tile",
+        "Usage": "Tap to arm, tap on target tile to fire",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Holly Barrier.png"
+    },
+    "homing_thistle": {
+        "name": "Homing Thistle",
+        "Sun cost": "250",
+        "Recharge": "15 secondi",
+        "damage": "40 danni per colpo",
+        "Range": "Full board",
+        "Family": "Spear-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Homing Thistle.png"
+    },
+    "hot_potato": {
+        "name": "Hot Potato",
+        "Sun cost": 0,
+        "Recharge": 10,
+        "usage": "Uso singolo, instant",
+        "special": "Melts an ice block",
+        "Family": "Pepper-mint",
+        "description": "La Hot Potato è una pianta capace di sciogliere il ghiaccio. A livelli alti può anche causare danno agli zombi",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Hot Potato.png"
+    },
+    "iceberg_lettuce": {
+        "name": "Iceberg Lettuce",
+        "Sun cost": 0,
+        "Recharge": 20,
+        "Special": "Explodes, temporarily freezing a zombie",
+        "Range": "Touch",
+        "Usage": "Uso singolo, A contatto",
+        "Family": "Winter-mint",
+        "description": "questa pianta crea un blocco di ghiaccio che ferma i nemici nel loro cammino. È particolarmente utile contro i nemici che avanzano velocemente, come gli Zombie Imp.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Iceberg Lettuce.png"
+    },
+    "imp_pear": {
+        "name": "Imp Pear",
+        "Sun cost": "0",
+        "Recharge": "5 secondi",
+        "damage": "10%",
+        "Toughness": "300",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Imp Pear.png"
+    },
+    "infi-nut": {
+        "name": "Infi-nut",
+        "Sun cost": 75,
+        "Recharge": 15,
+        "damage": 2000,
+        "special": "Regenerates health over time",
+        "weakness": "Crushing zombies",
+        "Family": "Reinforce-mint",
+        "description": "Infi-nuts are weaker than Wall-nuts, but they regain health over time.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Infi-nut.png"
+    },
+    "intensive_carrot": {
+        "name": "Intensive Carrot",
+        "Sun cost": "100",
+        "Recharge": "20 secondi",
+        "Area": "Tile",
+        "Usage": "Uso singolo, instant",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Intensive Carrot.png"
+    },
+    "jack_o'_lantern": {
+        "name": "Jack O' Lantern",
+        "Sun cost": "225",
+        "Recharge": "20 secondi",
+        "damage": "300 danni per colpo per second",
+        "Area": "1x3",
+        "Special": "Fire recharges over time",
+        "Weakness": "(Immune to fire)",
+        "Family": "Pepper-mint",
+        "description":" Il Jack O'Lantern è una pianta che emette un raggio di fuoco quando viene attivata, colpendo gli zombi vicini sulla linea",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Jack Lantern.png"
+    },
+    "jalapeno": {
+        "name": "Jalapeno",
+        "Sun cost": "125",
+        "Recharge": "35 secondi",
+        "damage": "1800 danni per colpo to every affected enemy",
+        "Area": "Lane",
+        "Usage": "Uso singolo, instant",
+        "Weakness": "(Immune to fire)",
+        "Family": "Pepper-mint",
+        "description":"La Jalapeno è una pianta molto piccante che quando viene attivata emette una fiammata in grado di bruciare tutti gli zombi presenti sulla sua traiettoria.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Jalapeno.png"
+    },
+    "kernel-pult": {
+        "name": "Kernel-pult",
+        "Sun cost": 100,
+        "Recharge": 5,
+        "Range": "Lobbed",
+        "special": "Butter immobilizes zombies",
+        "Family": "Arma-mint",
+        "description": "Kernel-pults fling corn kernels and butter at zombies.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Kernel-pult.png"
+    },
+    "kiwibeast": {
+        "name": "Kiwibeast",
+        "Sun cost": "175",
+        "Recharge": "15 secondi",
+        "damage": "40 danni per colpo (first stage),50 danni per colpo (second stage),70 danni per colpo (third stage)",
+        "Toughness": "Elevated",
+        "Area": "1x1 (first stage),3x3 (second stage),5x5 (third stage)",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Kiwibeast.png"
+    },
+    "laser_bean": {
+        "name": "Laser Bean",
+        "Sun cost": 200,
+        "Recharge": 5,
+        "damage": 40,
+        "area": "Lane",
+        "Range": "Multi-Hit, all zombie in a lane",
+        "Family": "Spear-mint",
+        "description": "Laser Beans fire down a lane, hitting all zombies ahead of it.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Laser Bean.png"
+    },
+    "lava_guava": {
+        "name": "Lava Guava",
+        "Sun cost": "75",
+        "Recharge": "15 secondi",
+        "damage": "200 danni per colpo in a 3x3 area (initial eruption),100 danni per colpo every 1 second (lava tile)",
+        "Area": "3x3 (initial eruption),Single tile (lava tile)",
+        "Range": "Touch",
+        "Usage": "Uso singolo, A contatto",
+        "Special": "Creates a burning lava pool in its tile",
+        "Weakness": "(Immune to fire)",
+        "Family": "Pepper-mint",
+        "description":" La Lava Guava è una pianta che emette una pioggia di lava quando viene attivata, colpendo gli zombi circostanti bruciandoli",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Lava Guava.png"
+    },
+    "lightning_reed": {
+        "name": "Lightning Reed",
+        "Sun cost": 125,
+        "Recharge": 5,
+        "damage": 10,
+        "Range": "Multi-hit, can even hit targets one lane above or below",
+        "special": "Chain attacks to multiple targets",
+        "Family": "Fila-mint",
+        "description": "Lightning Reeds shoot lightning at nearest zombie up to one lane away. The bolt will then arc and hit other zombies.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Lightning Reed.png"
+    },
+    "lily_pad": {
+        "name": "Lily Pad",
+        "Sun cost": "25",
+        "Recharge": "5 secondi",
+        "Toughness": "300 danni per colpo",
+        "Usage": "Can also be planted under non-aquatic plants",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Lily Pad.png"
+    },
+    "magnet-shroom": {
+        "name": "Magnet-shroom",
+        "Sun cost": "100",
+        "Recharge": "15 secondi",
+        "Range": "Multi-Lane",
+        "Special": "Removes metal objects from zombies",
+        "Family": "Contain-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Magnet-shroom.png"
+    },
+    "magnifying_grass": {
+        "name": "Magnifying Grass",
+        "Sun cost": 50,
+        "Recharge": 5,
+        "damage": 550,
+        "special": "Tap to spend sun for an attack",
+        "Range": "dritto",
+        "Family": "Fila-mint",
+        "description": "Magnifying Grass turns sun into a bolt of colorful damage.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Magnifying Grass.png"
+    },
+    "marigold": {
+        "name": "Marigold",
+        "Sun cost": "N/A",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Marigold.png"
+    },
+    "melon-pult": {
+        "name": "Melon-pult",
+        "Sun cost": 325,
+        "Recharge": 5,
+        "damage": 80,
+        "Range": "Lobbed",
+        "Family": " Arma-mint",
+        "description": "Melon-pults do heavy damage to groups of zombies.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Melon-pult.png"
+    },
+    "missile_toe": {
+        "name": "Missile Toe",
+        "Sun cost": "500,400 (Cina)",
+        "Recharge": "5 secondi",
+        "damage": "1200 danni per colpo in a 1x3 area (Huge in Cina)",
+        "Area": "Tile,3x3 (Cina)",
+        "Usage": "Tap to arm, tap on target tile to fire",
+        "Family": "Winter-mint",
+        "description" : "questa pianta lancia palle di neve sui nemici, causando danni e rallentandoli. Inoltre, quando usata in combinazione con Winter-mint, i suoi attacchi diventano ancora più potenti.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Missile Toe.png"
+    },
+    "moonflower": {
+        "name": "Moonflower",
+        "Sun cost": "50",
+        "Recharge": "10 secondi (Mediocre in Cina)",
+        "Toughness": "Typical",
+        "Area": "3x3",
+        "Special": "Produces 25 more sun for each shadow plant nearby up to four.",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Moonflower.png"
+    },
+    "murkadamia_nut": {
+        "name": "Murkadamia Nut",
+        "Sun cost": "100",
+        "Recharge": "10 secondi",
+        "Toughness": "2500 danni per colpo",
+        "Usage": "Damaged murk regrows over time",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Murkadamia Nut.png"
+    },
+    "nightshade": {
+        "name": "Nightshade",
+        "Sun cost": "75 (50 in Chinese version)",
+        "Recharge": "5 secondi",
+        "damage": "100 danni per colpo in 4 secondi (long range, powered),200 danni per colpo in 4 secondi (close range),150 danni per colpo in 4 secondi (long range, boosted),600 danni per colpo in 4 secondi (close range, boosted)",
+        "Toughness": "300 DPS",
+        "Range": "dritto",
+        "Range details": "Close (not powered),Straight (powered)",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Nightshade.png"
+    },
+    "olive_pit": {
+        "name": "Olive Pit",
+        "Sun cost": "175",
+        "Recharge": "7 secondi",
+        "Usage": "Can swallow multiple zombies at a time",
+        "Special": "Spits out zombie-slowing olive oil",
+        "Family": "Contain-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Olive Pit.png"
+    },
+    "parsnip": {
+        "name": "Parsnip",
+        "Sun cost": "150,125 (Cina)",
+        "Recharge": "5 secondi",
+        "damage": "80 danni per colpo,300 danni per colpo (while rushing, every 0.2 secondi)",
+        "Range": "vicino",
+        "Special": "Rushes at the last moment.",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Parsnip.png"
+    },
+    "pea_pod": {
+        "name": "Pea Pod",
+        "Sun cost": 125,
+        "Recharge": 5,
+        "damage": "<span>20</span>",
+        "Range": "Dritto sulla linea",
+        "special": "Incrementa la raffica di semi sparati se piazzato più volte nello stesso punto",
+        "Family": " Appease-mint",
+        "description": "Pea Pod può essere piazzato nella stessa cella fino a 5 volte",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pea Pod.png"
+    },
+    "pea_vine": {
+        "name": "Pea Vine",
+        "Sun cost": "125",
+        "Recharge": "5",
+        "damage": "<span>20 per colpo</span>",
+        "Special": "Incrementa i danni fatti da piante della sua famiglia (Appease-mint)",
+        "Family": "Appease-mint",
+        "description":"Pea Vine è una piant di supporto che può essere piantata su una pianta se non è già presente un'altra pianta di tipo radice. Ha la funzione di potenziare le piante della sua famiglia andando a radoppiare fino a triplicare il danno inflitto dai suoi fratelli",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pea Vine.png"
+    },
+    "pea_nut": {
+        "name": "Pea-nut",
+        "Sun cost": "150",
+        "Recharge": "15 secondi",
+        "damage": "20 danni per colpo",
+        "Toughness": "4000 danni per colpo",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pea-nut.png"
+    },
+    "peashooter": {
+        "name": "Peashooter",
+        "Sun cost": "100",
+        "Recharge": "5",
+        "damage": "20",
+        "toughness": "300",
+        "Range": "Dritto sulla linea",
+        "powerup": "Spara una raffica di semi addosso agli zombi",
+        "Family": "Appease-mint",
+        "description": "Peashooter è la tua prima linea di difesa. Spara addosso agli zombi una serie si semi.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Peashooter.png"
+    },
+    "mega-gatling-pea":{
+        "name" : "Mega Gatling Pea",
+        "Sun cost":"400",
+        "Recharge" :"5 secondi",
+        "damage" : "20",
+        "toughness": "300",
+        "Range": "Dritto sulla linea",
+        "powerup": "Spara una raffica di semi addosso agli zombi",
+        "Family": "Appease-mint",
+        "description": "Mega Gatling Pea è una pianta di tipo Appease-mint che spara 4 semi alla volta addosso agli zombi inizialmente. Ha una probabilità di usare il potere del ricostituente mentre attacca uno zombi. Una volta che avrà usato il potere del ricostituente cambia la quantità di semi sparati a volta da 4 a 5 semi per colpo",
+        "image":"https://static.wikia.nocookie.net/plantsvszombies/images/1/17/Mega_Gatling_Pea2.png"
+    },
+    "pepper-mint": {
+        "name": "Pepper-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "6 secondi",
+        "Weakness": "(immune to fire)",
+        "Family": "Pepper-mint",
+        "description":"Il Pepper-mint è una pianta che rinfresca il giardino, aumentando la potenza delle altre piante presenti sul campo di battaglia.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pepper-mint.png"
+    },
+    "pepper-pult": {
+        "name": "Pepper-pult",
+        "Sun cost": 200,
+        "Recharge": 20,
+        "damage": 50,
+        "special": "Warms nearby tiles immune to frost",
+        "Range": "Lobbed",
+        "Family": "Pepper-mint",
+        "description": "Il Pepper-pult è una pianta che lancia peperoncini ai nemici per danneggiarli. Quando viene attivata con il ricostituente, lancia un gran numero di peperoncini che colpiscono tutti gli zombi presenti sul campo di battaglia.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pepper-pult.png"
+    },
+    
+    "perfume-shroom": {
+        "name": "Perfume-shroom",
+        "Sun cost": "150",
+        "Recharge": "30 secondi",
+        "Usage": "Hypnotizes all dinosaurs in a lane",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Perfume-shroom.png"
+    },
+    "potato_mine": {
+        "name": "Potato Mine",
+        "Sun cost": 25,
+        "Recharge": 20,
+        "damage": 1800,
+        "Range": "Contact",
+        "Family": "Bombard-mint",
+        "description": "Potato Mines explode A contatto, but they take time to arm. Plant them ahead of zombies.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Potato Mine.png"
+    },
+    "power_lily": {
+        "name": "Power Lily",
+        "Sun cost": "175",
+        "Recharge": "60 secondi",
+        "Usage": "Uso singolo, instant",
+        "Special": "Creates one Plant Food",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Power Lily.png"
+    },
+    "power_vine": {
+        "name": "Power Vine",
+        "Sun cost": "150",
+        "Recharge": "5 secondi",
+        "damage": "10 DPS per laser bolt",
+        "Special": "Power Vines horizontally or vertically adjacent to other Power Vines form a network",
+        "Family": "Fila-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Power Vine.png"
+    },
+    "primal_peashooter": {
+        "name": "Primal Peashooter",
+        "Sun cost": "175",
+        "Recharge": "5 secondi",
+        "damage": "50 danni per colpo",
+        "Special": "I semi a forma di roccia spingono indietro i zombi nella fila ",
+        "Family": "Appease-mint",
+        "description":"Primal Peashooter è l'antenato di Peashooter e, come tale, ha un aspetto simile a una pianta preistorica con un grande muso e una lunga coda. Come il suo predecessore, spara semi di piselli contro gli zombi per infliggere danni.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Primal Peashooter.png"
+    },
+    "Appease-mint" : {
+        "name": "Appease-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration" : "6 secondi",
+        "damage": "Non fa danni",
+        "Special": "Potenzia le piante della famiglia Appease-mint",
+        "Family": "Appease-mint",
+        "description" : "E' il capostipite della famiglia Appease-mint, potenzia i suoi figli facendoli fare più danni con i loro prodotti",
+        "image": "https://static.wikia.nocookie.net/plantsvszombies/images/6/68/Appease-mint2.png/"
+    },
+    "primal_potato_mine": {
+        "name": "Primal Potato Mine",
+        "Sun cost": "50 (25 in Chinese version)",
+        "Recharge": "25 secondi",
+        "damage": "2400 danni per colpo",
+        "Area": "3x3",
+        "Range": "Contact",
+        "Usage": "Uso singolo",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Primal Potato Mine.png"
+    },
+    "primal_sunflower": {
+        "name": "Primal Sunflower",
+        "Sun cost": "75",
+        "Recharge": "5 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Toughness": "300",
+        "Family": "Enlighten-mint",
+        "description" :"È una variante della Sunflower originale e produce due volte più sole rispetto ad essa, ma ha un costo solare maggiore (75). Inoltre, ha una maggiore resistenza ai danni degli zombi rispetto alla Sunflower originale. Primal Sunflower può essere ottenuta in diversi modi, ad esempio attraverso il negozio del gioco o completando alcune sfide.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Primal Sunflower.png"
+    },
+    "primal_wall-nut": {
+        "name": "Primal Wall-nut",
+        "Sun cost": "75",
+        "Recharge": "Fast",
+        "Toughness": "4000 danni per colpo",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Primal Wall-nut.png"
+    },
+    "puff-shroom": {
+        "name": "Puff-shroom",
+        "Sun cost": "0",
+        "Recharge": "5 secondi",
+        "damage": "20 danni per colpo",
+        "Range": "3 Tiles",
+        "Special": "Lives for a limited time",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Puff-shroom.png"
+    },
+    "puffball": {
+        "name": "Puffball",
+        "Sun cost": "150",
+        "Recharge": "20 secondi",
+        "Area": "3x5",
+        "Usage": "Repeated Puffball explosions add to the poison",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Puffball.png"
+    },
+    "pumpkin": {
+        "name": "Pumpkin",
+        "Sun cost": "150",
+        "Recharge": "12 secondi",
+        "Toughness": "4000 danni per colpo",
+        "Weakness": "(Can crush it)",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pumpkin.png"
+    },
+    "pyre_vine": {
+        "name": "Pyre Vine",
+        "Sun cost": "125",
+        "Recharge": "10 secondi",
+        "damage": "30 DPS",
+        "Weakness": "(Immune to fire)",
+        "Family": "Pepper-mint",
+        "description":" La Pyre Vine è una pianta che lancia fiamme ai nemici per danneggiarli. Quando viene attivata, lancia una serie di fiamme che colpiscono tutti gli zombi presenti sul campo di battaglia.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Pyre Vine.png"
+    },
+    "red_stinger": {
+        "name": "Red Stinger",
+        "Sun cost": 150,
+        "Recharge": 5,
+        "damage": 30,
+        "toughness": "300 dps (prime tre celle)\n900 dps (colonne 4-6)\n1500 danni per colpo (colonne 7-9)",
+        "Range": "dritto",
+        "Family": "Appease-mint",
+        "description": "I Red Stinger lanciano colpi a piena potenza quando sono vicini a casa, e diventano più difensivi quando si allontanano da essa.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Red Stinger.png"
+    },
+    "reinforce-mint": {
+        "name": "Reinforce-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "8 secondi",
+        "Special": "Knockback",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Reinforce-mint.png"
+    },
+    "repeater": {
+        "name": "Repeater",
+        "Sun cost": 200,
+        "Recharge": 5,
+        "damage": "20 dps per seme",
+        "Range": "dritto",
+        "Family": "Appease-mint",
+        "description": "Repeater fa il lavoro doppio rispetto a Peashooter. Lui spara 2 semi a volta in confronto a lui",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Repeater.png"
+    },
+    "rotobaga": { 
+        "name": "Rotobaga",
+        "Sun cost": 150,
+        "Recharge": 5,
+        "damage": 10,
+        "special": "Spara in 4 direzioni",
+        "Range": "4 direzioni",
+        "Family": "Appease-mint",
+        "description": "I Rotobaga sparano semi lungo le 4 diagonali quando i una di essa è presente uno zombi",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Rotobaga.png"
+    },
+    "sap-fling": {
+        "name": "Sap-fling",
+        "Sun cost": "75 (150 in Chinese Version)",
+        "Recharge": "5 secondi",
+        "Area": "Tile",
+        "Range": "Lobbed",
+        "Damage details": "Does no damage on impact, but creates sap puddle",
+        "Special": "Slows zombies who walk in puddle",
+        "Family": "Contain-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Sap-fling.png"
+    },
+    "shadow_peashooter": {
+        "name": "Shadow Peashooter",
+        "Sun cost": "125,200 (Chinese version)",
+        "Recharge": "5 secondi,Fast (Chinese version)",
+        "damage": "30 danni per colpo (peas),70 danni per colpo (beam),Heavy (Chinese version)",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Shadow Peashooter.png"
+    },
+    "shadow-shroom": {
+        "name": "Shadow-shroom",
+        "Sun cost": "50",
+        "Recharge": "10 secondi (Mediocre in Cina)",
+        "damage": "900 danni per colpo over 30 secondi",
+        "Range": "Touch",
+        "Family": "Conceal-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Shadow-shroom.png"
+    },
+    "shine_vine": {
+        "name": "Shine Vine",
+        "Sun cost": "75",
+        "Recharge": "5",
+        "damage": "5",
+        "Usage": "Best used on sun producer plants",
+        "Special": "Doesn't amplify Moonflower's sun production",
+        "Family": "Enlighten-mint",
+        "description" :"Shine Vine è una pianta stagionale dell'Arena, sbloccabile con pacchetti di semi. È una pianta radice, e come tale può essere piantata su altre piante.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Shine Vine.png"
+    },
+    "shrinking_violet": {
+        "name": "Shrinking Violet",
+        "Sun cost": "50",
+        "Recharge": "15 secondi",
+        "Area": "3x3",
+        "Usage": "Uso singolo, activates when zombies are close",
+        "Special": "Shrinks Imps to oblivion",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Shrinking Violet.png"
+    },
+    "snapdragon": {
+        "name": "Snapdragon",
+        "Sun cost": 150,
+        "Recharge": 5,
+        "damage": 30,
+        "Range": "vicino",
+        "special": "Damages all zombies in the 6 tiles in front of it",
+        "Family": " Pepper-mint",
+        "description": "Snapdragons breathe fire that causes damage in 6 adjacent tiles.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Snapdragon.png"
+    },
+    "solar_sage": {
+        "name": "Solar Sage",
+        "Sun cost": "0",
+        "Recharge": "20",
+        "damage" : "Non fa male agli zombi",
+        "Weakness": "Vulnerable to critters and mechs",
+        "Family": "Enlighten-mint",
+        "description" : "Solar Sage è una pianta premium di tipo supporto, introdotta in Plants vs. Zombies 2. Quando piantata, fornisce un effetto di potenziamento solare a tutte le altre piante sulla pista. Inoltre, ogni volta che viene danneggiata, rilascia una piccola quantità di luce solare.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Solar Sage.png"
+    },
+    "solar_tomato": {
+        "name": "Solar Tomato",
+        "Sun cost": "100",
+        "Recharge": "25 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Toughness": "Typical",
+        "Area": "3x3",
+        "Special": "Stun",
+        "Family": "Enlighten-mint",
+        "description":" Solar Tomato è una pianta premium di tipo attacco, introdotta in Plants vs. Zombies 2. Quando piantata, infligge danni agli zombi vicini e raccoglie la luce solare dal campo di gioco. Più luce solare raccoglie, più diventa grande e potente.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Solar Tomato.png"
+    },
+    "spikerock": {
+        "name": "Spikerock",
+        "Sun cost": 250,
+        "Recharge": 5,
+        "damage": 20,
+        "area": "Tile",
+        "special": "Can't be eaten by zombies",
+        "weakness": "Can take three hits from rolling zombies",
+        "Family": "Spear-mint",
+        "description": "Spikerocks destroy multiple rolling zombies and damage zombies that walk over it.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Spikerock.png"
+    },
+    "spikeweed": {
+        "name": "Spikeweed",
+        "Sun cost": 100,
+        "Recharge": 5,
+        "damage": 10,
+        "area": "Tile",
+        "special": "Can't be eaten by zombies",
+        "weakness": "Crushed by rolling zombies",
+        "Family": "Spear-mint",
+        "description": "Spikeweeds destroy one rolling zombie and hurt any zombies that step on them.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Spikeweed.png"
+    },
+    "split_pea": {
+        "name": "Split Pea",
+        "Sun cost": 125,
+        "Recharge": 5,
+        "damage": 20,
+        "Range": "Davanti e dietro",
+        "Family": "Appease-mint",
+        "description": "Split Pea spara semi sia davanti che dietro di lui, non gli piace sentirsi osservato alle sue spalle.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Split Pea.png"
+    },
+    "spore-shroom": {
+        "name": "Spore-shroom",
+        "Sun cost": "150",
+        "Recharge": "5 secondi",
+        "damage": "50 danni per colpo",
+        "Range": "Lobbed",
+        "Family": "Ail-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Spore-shroom.png"
+    },
+    "spring_bean": {
+        "name": "Spring Bean",
+        "Sun cost": 50,
+        "Recharge": 20,
+        "weakness": "Gets sleepy after springing",
+        "Range": "Touch",
+        "special": "Pushes zombies back, or into the water",
+        "Family": "Contain-mint",
+        "description": "Spring Beans bounce back zombies that get too close. Will bounce them into water if nearby.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Spring Bean.png"
+    },
+    "squash": {
+        "name": "Squash",
+        "Sun cost": "50, 125 (Cina)",
+        "Recharge": "20 secondi",
+        "damage": "1800 danni per colpo per ogni nemico affetto",
+        "Toughness": "ALto",
+        "Area": "All zombies around target",
+        "Range": "vicino",
+        "Usage": "Single-use",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Squash.png"
+    },
+    "stallia": {
+        "name": "Stallia",
+        "Sun cost": 0,
+        "Recharge": 20,
+        "area": "3*3",
+        "usage": "Uso singolo, Si attiva quando uno zombi si avvicina a lui",
+        "special": "Rallenta i zombi vicini",
+        "Range": "Tocco",
+        "Family": "Contain-mint",
+        "description": "Stallias rallenta lo zombi quando si avvicina troppo a lui con un esplosione di profumo.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Stallia.png"
+    },
+    "starfruit": {
+        "name": "Starfruit",
+        "Sun cost": "150",
+        "Recharge": "5 secondi",
+        "damage": "20 danni per colpo",
+        "Toughness": "Normale",
+        "Range": "5 direzioni",
+        "Range details": "Colpisce in 5 direzioni",
+        "description" : "Starfruit spara stelline lungo 5 direzioni, da piccolo veniva deriso e ora è diventato più abile che mai!",
+        "Family": "Appease-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Starfruit.png"
+    },
+    "stickybomb_rice": {
+        "name": "Stickybomb Rice",
+        "Sun cost": "225",
+        "Recharge": "10 secondi",
+        "damage": "40 danni per colpo",
+        "Special": "Exploding sticky bombs trigger other sticky bombs",
+        "Family": "Arma-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Stickybomb Rice.png"
+    },
+    "stunion": {
+        "name": "Stunion",
+        "Sun cost": 25,
+        "Recharge": 20,
+        "usage": "Uso singolo, activates when zombie is close",
+        "special": "Stuns nearby zombies",
+        "Range": "vicino",
+        "Family": "contain-mint",
+        "description": "Stunions breathe a stunning cloud of gas on nearby zombies in the lane.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Stunion.png"
+    },
+    "sun_bean": {
+        "name": "Sun Bean",
+        "Sun cost": "50",
+        "Recharge": "20 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Area": "Single",
+        "Usage": "Uso singolo, a contatto",
+        "Family": "Enlighten-mint",
+        "description":"Sun Bean è una pianta di tipo supporto. Quando piantata, trasforma lo zombi che lo mangia in una palla di luce solare che esplode, producendo una certa quantità di soli.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Sun Bean.png"
+    },
+    "sun-shroom": {
+        "name": "Sun-shroom",
+        "Sun cost": "25",
+        "Recharge": "5 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Toughness": "Typical",
+        "Family": "Enlighten-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Sun-shroom.png",
+        "description" : "La Sun-shroom è una pianta appartenente alla famiglia delle Enlighten-mint in Plants vs Zombies. Ha un costo soli di 25 e un tempo di ricarica di 5 secondi. Non infligge alcun danno agli zombi, ma fornisce al giocatore un certo quantitativo di soli per ogni ciclo di vita."
+    },
+    "sunflower": {
+        "name": "Sunflower",
+        "Sun cost": 50,
+        "Recharge": 5,
+        "damage" : "Non fa male agli zombi",
+        "sun-production": "Normale",
+        "toughness": 300,
+        "Family": "Enlighten-mint",
+        "description": "Il girasole è una pianta primaria che produce più sole per te. Piantane il maggior numero possibile! Produzione solare: media Caratteristiche della pianta: pianta gialla, sole infinito",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Sunflower.png"
+    },
+    "sweet_potato": {
+        "name": "Sweet Potato",
+        "Sun cost": "150 (300 in Cina)",
+        "Recharge": "20 secondi",
+        "Toughness": "4000 danni per colpo",
+        "Family": "Reinforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Sweet Potato.png"
+    },
+    "tall-nut": {
+        "name": "Tall-nut",
+        "Sun cost": 125,
+        "Recharge": 20,
+        "toughness": 8000,
+        "special": "Blocks launched imps",
+        "Family": " Reinforce-mint",
+        "description": "Tall-nuts are heavy-duty wall plants that block low flying zombies.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Tall-nut.png"
+    },
+    "tangle_kelp": {
+        "name": "Tangle Kelp",
+        "Sun cost": "25",
+        "Recharge": "20 secondi",
+        "Area": "Single",
+        "Range": "Touch",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Tangle Kelp.png"
+    },
+    "teleportato_mine": {
+        "name": "Teleportato Mine",
+        "Sun cost": "75",
+        "Recharge": "20 secondi",
+        "damage": "2200",
+        "Toughness": "300",
+        "Area": "3x3",
+        "Usage": "Instant",
+        "Family": "Bombard-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Teleportato Mine.png"
+    },
+    "threepeater": {
+        "name": "Threepeater",
+        "Sun cost": 300,
+        "Recharge": 5,
+        "damage": "20 (per ogni seme sparato)",
+        "Range": "più linee",
+        "Family": "Appease-mint",
+        "description": "I Threepeaters sparano semi su 3 linee differenti, ottimo quando vuoi coprire una vasta area",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Threepeater.png"
+    },
+    "thyme_warp": {
+        "name": "Thyme Warp",
+        "Sun cost": "75",
+        "Recharge": "60 secondi",
+        "Area": "Full Board",
+        "Usage": "Uso singolo, instant",
+        "Family" : "Contain-mint",
+        "Special": "Rewound zombies have restored health",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Thyme Warp.png"
+    },
+    "tiger_grass": {
+        "name": "Tiger Grass",
+        "Sun cost": "150",
+        "Recharge": "7 secondi",
+        "Toughness": "40",
+        "Special": "Grass tiger grows over time",
+        "Family": "Enforce-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Tiger Grass.png"
+    },
+    "tile_turnip": {
+        "name": "Tile Turnip",
+        "Sun cost": "0(First Tile Turnip) , 250 (price shown in almanc)",
+        "Recharge": 10,
+        "usage": "Uso singolo, instant",
+        "Family" : "Enchant-mint",
+        "description": "Tile Turnips create a Power Tile on planting.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Tile Turnip.png"
+    },
+    "toadstool": {
+        "name": "Toadstool",
+        "Sun cost": "200",
+        "Recharge": "5 secondi",
+        "damage" : "Non fa male agli zombi",
+        "Area": "Single",
+        "Range": "vicino",
+        "Weakness": "Vulnerable while chewing",
+        "Family": "Enlighten-mint",
+        "description" : "Toadstool è una pianta di tipo attacco; ingoia lo zombi più vicino e lo digerisce per un po' di tempo, fornendo una fonte continua di luce solare. Inoltre, quando viene attaccata, rilascia un'esplosione di veleno che danneggia tutti gli zombi circostanti.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Toadstool.png"
+    },
+    "tumbleweed": {
+        "name": "Tumbleweed",
+        "Sun cost": "50",
+        "Recharge": "5.5 secondi",
+        "damage": "15",
+        "Range": "dritto",
+        "Special": "Può prendere fuoco da Torchwood",
+        "description" : "Spinge i zombi all'indietro",
+        "Family": "Appease-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Tumbleweed.png"
+    },
+    "twin_sunflower": {
+        "name": "Twin Sunflower",
+        "Sun cost": "125",
+        "Recharge": "10",
+        "damage" : "Non fa male agli zombi",
+        "toughness": "300",
+        "Family": "Enlighten-mint",
+        "description": "Twin Sunflower è una pianta di tipo supporto. Quando piantata, produce il doppio di luce solare rispetto a una normale Sunflower, rendendola molto utile per raccogliere rapidamente grandi quantità di luce solare.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Twin Sunflower.png"
+    },
+    "wall-nut": {
+        "name": "Wall-nut",
+        "Sun cost": 50,
+        "Recharge": 20,
+        "toughness": 4000,
+        "powerup": "Armor",
+        "Family": "Reinforce-mint",
+        "description": "Wall-nuts have hard shells which you can use to protect your other plants.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Wall-nut.png"
+    },
+    "wasabi_whip": {
+        "name": "Wasabi Whip",
+        "Sun cost": "150",
+        "Recharge": "5 secondi",
+        "damage": "40 danni per colpo",
+        "Range": "Vicino",
+        "Special": "Riscalda le piante vicine a lui di una casella,(Immune al fuoco)",
+        "Family": "Enforce-mint",
+        "description" : "Questa pianta frusta la faccia degli zombi con la sua foglia",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Wasabi Whip.png"
+    },
+    "winter_melon": {
+        "name": "Winter Melon",
+        "Sun cost": 500,
+        "Recharge": 5,
+        "damage": 80,
+        "Range": "Lobbed",
+        "special": "Damaged enemies are also chilled",
+        "Family": "Winter-mint",
+        "description": " questa pianta lancia meloni ghiacciati sui nemici, causando danni e rallentandoli. I suoi attacchi sono molto potenti e coprono un'ampia area, ma la pianta ha un tempo di ricarica più lungo rispetto ad altre piante.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Winter Melon.png"
+    },
+    "winter-mint": {
+        "name": "Winter-mint",
+        "Sun cost": "0",
+        "Recharge": "85 secondi",
+        "Duration": "10 secondi",
+        "Family": "Winter-mint",
+        "description" : "questa pianta rinfresca le altre piante della famiglia Enlighten-mint, aumentando la potenza dei loro attacchi. Inoltre, quando piantata accanto a Cold Snapdragon, Missile Toe o Winter Melon, aumenta la loro potenza di attacco.",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Winter-mint.png"
+    },
+    "witch_hazel": {
+        "name": "Witch Hazel",
+        "Sun cost": "200",
+        "Recharge": "30 secondi",
+        "Special": "Prefers to target Wizard Zombies",
+        "Weakness": "(Cannot be turned into a mushroom)",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Witch Hazel.png"
+    },
+    "zoybean_pod": {
+        "name": "Zoybean Pod",
+        "Sun cost": "200",
+        "Recharge": "20 secondi",
+        "Family": "Enchant-mint",
+        "image": "https://raw.githubusercontent.com/code-cracked/plants-vs-zombies-api/main/public/assets/plants/Zoybean Pod.png"
+    }
+}

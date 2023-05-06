@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap'); 
+
+
+*{
+    font-family: "Aldrich",Verdana, Times, serif;
+    padding : 0;
+    margin : 0;
+
+}
+
+html{
+    height: 100%;
+}
+h1, h2{
+
+    font-size : 40px;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to top right, #ec7404 0%, #df9815 50%, #e0c758 100%);
+}
+
+#title{
+    background-color: black;
+    color : white;
+    background-image: none;
+    
+}
+
+body{
+    background-image: url('/images/menu/background.png');
+    background-size: cover;
+
+    min-height: 100vh; 
+
+}
+
+main{
+    min-height: 100vh;
+}
+
+footer {
+    /* visibility: hidden;  */
+    position: relative;
+    left :0px;
+    bottom : 0px;
+    width: 100%; 
+    height: 100px;
+    top : 5;
+    background-color: black;
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    
+}
+footer div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+footer div img{
+    position: relative;
+    width: 1.5rem;
+    top : -3 px;
+}
+
+.plantImg{
+    width: 100px;
+}
+
+#navbar{
+    
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color : white;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#navbar img{
+    margin-left : 30px;
+    height: 60px;
+    z-index: 2;
+}
+#navbar-logo{
+    width : 400px;
+}
+#navbar-link{
+    width: 600px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-around; /*questo comando mi distribuisce equamente gli oggetti su tutto lo spazio contenuto*/
+}
+
+#navbar a{
+    text-align: center;
+    width: fit-content;
+    display: inline-block;
+    /* border: 2px solid white; */
+    font-size : 20px;
+    text-decoration: none;
+    color:white;
+    transition: 0.2s;
+}
+
+.underline-hover-effect{
+    font-size : 20px;
+    display: inline-block;
+    position: relative;
+    padding-bottom : 0.25rem;
+
+}
+
+.underline-hover-effect::before{
+    content : "";
+    position: absolute;
+/*creo una zona di lunghezza piccola che funga da underline  */
+    left :0;
+    bottom:0;
+
+    width: 0;
+    height: 2px;
+    background-color: rgb(23, 241, 23);
+    transition : width 0.5s ease;
+}
+
+.underline-hover-effect:hover::before{
+    width: 100%;
+}
+
+#titolo-gruppo-piante, #titolo-pianta{
+    background-color: black;
+    color : white;
+    border: 2px solid yellow;
+    margin-left : -4px;
+    width: 100%;
+    text-align: center;
+    font-size : 40px;
+
+}
+
+#elementi{
+    float : right;
+    margin-top : 10px;
+    margin-right : 4px;
+    width: 50%;
+    display : grid;
+    grid-template-columns: 1fr;
+    flex-direction : column;
+    align-content: center;
+
+
+}
+#elementi h2{
+    position: relative;
+    text-align: center;
+    border: 2px solid black; 
+}
+
+#elementi > #container{
+    width: 100%;
+    /* border: 3px solid white;  */
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    border: 2px solid black;
+    border-radius:  20px;
+    /* transition : 0.5s;  */
+}
+
+#introduzione{
+    position: relative;
+    margin-top : 20px;
+    margin-left : 10px;
+    
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    border: 6px solid #ad6d42;
+    background-color: #ede5c5;
+    
+}
+p{
+    padding-left : 20px;
+    padding-right : 20px;
+}
+
+.img-testo{
+    /* border : 1px solid black;  */
+    display : flex;
+    align-items: center;
+    display: block;
+}
+.img-testo img{
+    width: 100px;
+    cursor : pointer;
+}
+.img-testo img:hover{
+    border : 2px solid yellow;
+    /* transform: translateY(-6px);  */
+    transform : scale(1.1);
+}
+
+.card{
+    visibility: hidden;  
+    position: absolute;
+}
+.card-piantaCliccata{
+    visibility: visible;
+    position: absolute;  
+    width : 600px;
+    height: 300px;
+
+    left : 20%;
+    top : 10%;
+
+    transition : 0.5s; 
+    transform: translate(0%,+20%);
+
+    /* align-items: center;  */
+    background-color: rgb(127, 167, 127); 
+    border: 2px solid green;
+    border-radius: 20px;
+    
+    z-index : 999;
+}
+
+.card-piantaCliccata p {
+    color :black;
+    font-size : 20px;
+    margin-left : 10px;
+}
+
+.card-piantaCliccata p span{
+    font-weight: bold;
+}
+
+
+
+/* css per il pulsante che chiude la card */
+#card-tornaIndietro{
+    float : right;
+    position: relative;
+    font-size :15px;
+    top : 1%;
+    right: 1%;
+    border-radius : 20px;
+    border :2px solid black;
+
+    background-color: rgb(127, 167, 127,0.4);   
+}
+#card-tornaIndietro:hover{
+    background-color: white;
+    cursor: pointer;
+    
+    
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+#linkElementi, #linkPianta {
+    position : absolute;
+    bottom:20px;
+    right : 10px;
+    border : 2px solid black; 
+    border-radius: 5px;
+    width : fit-content;
+    background-color: rgba(40, 224, 40, 0.4);
+    float:right; 
+    cursor: pointer;
+    
+
+    
+}
+#linkElementi:hover, #linkPianta:hover{
+    border-radius: 5px;
+    width : fit-content;
+    background-color: white;
+    transition : 0.5s;
+    transform: scale(1.1);
+       
+}
+
+#descrizione-container{
+    float : left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#descrizione-container div p{
+    text-align: center;
+}
+
+#descrizione{
+    /* flex-grow: 1; */
+    position: relative;
+    display: inline-block;
+    /* top : 50px; */
+    width: 300px;
+    margin-left : 30px;
+    height: fit-content;
+    border : 6px solid #ad6d42;
+    border-radius : 10px;
+    background-color: #ede5c5;
+    
+}
+
+#descrizione-container input{
+    
+    height: 2rem; /* 1rem === grandezza del font*/
+    border : 2px solid black;
+    font-size: 20px;
+    background-color: white;
+}
+
+
+a{
+    text-decoration : none;
+    color : white;
+    background-color: black;
+}
+
+header a{
+    border: 1px solid black;
+    background-color: #df9815;
+    
+    width: 20px;
+    height: 20px;
+}
+
+
+/* design per la pagina della pianta */
+#pagina_pianta{
+    position: relative;
+    top : 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/menu/background.png');
+    background-size: cover;
+
+    display :none;
+
+}
+
+
+#pagina_pianta_descrizione{
+    width: 300px;
+    border: 6px solid #ad6d42;
+    background-color: #ede5c5;
+    color :#544b0f;
+    height: fit-content;
+    float: right;
+    margin-top:50px;
+    margin-right: 90px;
+      
+}
+#pagina-pianta-container{
+    width: fit-content;
+    clear : both;
+}
+
+
+h3{
+    width: 100%;
+    text-align: center;
+    background-color: #ad6d42;
+}
+
+#torna-indietro{
+    background-color: black;
+    color: white;
+    /* margin-top: -10px; */
+    padding-left: 50px;
+    height: 30px;
+}
+
+#table{
+    position: relative;
+    margin-top : 50px;    
+    margin-left : 50px;
+    margin-bottom :50px;
+}
+
+#table p{
+    background-color: #ad6d42;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+.wikitable{
+    background-color: grey; /*rappresenta il colore della griglia*/
+    
+}
+th{
+    background-color: rgb(188, 237, 173);
+    border-color: black;
+}
+td{
+    border-color: rgb(168, 240, 116);
+    background-color: rgba(249, 250, 246, 0.964);
+    font-size : 18px;
+}
+
+
+@media screen and (max-width : 1100px) {
+    #elementi > #container{
+        width: 100%;
+        /* border: 3px solid white;  */
+        display : grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        position: relative;
+        bottom : 0px;
+    }
+}

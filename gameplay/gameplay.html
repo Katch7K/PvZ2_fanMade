@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anteprima Gameplay</title>
+    <link rel="stylesheet" href="gameplayStyle.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div id="navbar-logo"><a href="/index.html"><img src="/images/menu/logo.png" alt=""></a></div>
+            <div id="navbar-link">
+                <a href="https://github.com/Katch7K"><p class="underline-hover-effect">Riguardo a noi</p></a>
+                <a href="https://www.ea.com/it-it/games/plants-vs-zombies/plants-vs-zombies-2"><p class="underline-hover-effect">Sito ufficiale</p></a>
+                <a href="https://www.youtube.com/@PlantsVsZombies"><p class="underline-hover-effect">Youtube</p></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="gameContainer">
+        <div>
+            <img src="/images/plantsImages/Peashooter2.png" class="bar-item" id="peashooter" alt="">
+            <img src="/gameplay/Sprite/Items/shovel.png" class="bar-item" id="shovel"alt="">
+        </div>
+        <p id="sun-counter">Sun : </p>
+        <canvas id="gameBoard" width="900px" height="500px"></canvas>
+        <div id="scoreText"></div>
+        <button id="godmode" class="button">God Mode <span>Off</span></button>
+        
+        <button id="reset" class="button">Reset</button>
+    </div>
+
+
+
+    <footer>
+            
+        <div id="footer-div">
+            <img src="https://static-00.iconduck.com/assets.00/github-icon-512x499-ziwq0a1i.png" alt="">
+            <a href="https://github.com/Katch7K">
+                <p class="underline-hover-effect">Katch7K</p>
+            </a>
+        </div>
+    </footer>
+
+    <script src="/gameplay/scripts/entities.js"></script>
+    <script src="/gameplay/scripts/projectile.js"></script>
+    <script src="/gameplay/scripts/gameplayScript.js"></script>
+</body>
+</html>
